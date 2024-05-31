@@ -7,39 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2A5D762C0A67F1009C98F1 /* CredentialListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A5D3D2C0A67F1009C98F1 /* CredentialListItemCell.xib */; };
+		1C2A5D772C0A67F1009C98F1 /* ItemPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A5D3E2C0A67F1009C98F1 /* ItemPickerTableViewCell.xib */; };
+		1C2A5D782C0A67F1009C98F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A5D402C0A67F1009C98F1 /* LaunchScreen.storyboard */; };
+		1C2A5D792C0A67F1009C98F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A5D422C0A67F1009C98F1 /* Main.storyboard */; };
+		1C2A5D7A2C0A67F1009C98F1 /* CredentialListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D442C0A67F1009C98F1 /* CredentialListItem.swift */; };
+		1C2A5D7B2C0A67F1009C98F1 /* PickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D452C0A67F1009C98F1 /* PickerItem.swift */; };
+		1C2A5D7C2C0A67F1009C98F1 /* CredentialListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D472C0A67F1009C98F1 /* CredentialListItemCell.swift */; };
+		1C2A5D7D2C0A67F1009C98F1 /* ItemPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D482C0A67F1009C98F1 /* ItemPickerTableViewCell.swift */; };
+		1C2A5D7F2C0A67F1009C98F1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D4B2C0A67F1009C98F1 /* BaseView.swift */; };
+		1C2A5D802C0A67F1009C98F1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D4C2C0A67F1009C98F1 /* BaseViewController.swift */; };
+		1C2A5D812C0A67F1009C98F1 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D4D2C0A67F1009C98F1 /* BaseViewModel.swift */; };
+		1C2A5D822C0A67F1009C98F1 /* CredentialDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D4F2C0A67F1009C98F1 /* CredentialDetailsView.swift */; };
+		1C2A5D832C0A67F1009C98F1 /* CredentialDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D502C0A67F1009C98F1 /* CredentialDetailsViewController.swift */; };
+		1C2A5D842C0A67F1009C98F1 /* CredentialDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D512C0A67F1009C98F1 /* CredentialDetailsViewModel.swift */; };
+		1C2A5D852C0A67F1009C98F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D532C0A67F1009C98F1 /* HomeView.swift */; };
+		1C2A5D862C0A67F1009C98F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D542C0A67F1009C98F1 /* HomeViewController.swift */; };
+		1C2A5D872C0A67F1009C98F1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D552C0A67F1009C98F1 /* HomeViewModel.swift */; };
+		1C2A5D882C0A67F1009C98F1 /* PickerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D572C0A67F1009C98F1 /* PickerListener.swift */; };
+		1C2A5D892C0A67F1009C98F1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D582C0A67F1009C98F1 /* PickerView.swift */; };
+		1C2A5D8A2C0A67F1009C98F1 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D592C0A67F1009C98F1 /* PickerViewController.swift */; };
+		1C2A5D8B2C0A67F1009C98F1 /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D5A2C0A67F1009C98F1 /* PickerViewModel.swift */; };
+		1C2A5D8C2C0A67F1009C98F1 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D5C2C0A67F1009C98F1 /* QRScannerView.swift */; };
+		1C2A5D8D2C0A67F1009C98F1 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D5D2C0A67F1009C98F1 /* QRScannerViewController.swift */; };
+		1C2A5D8E2C0A67F1009C98F1 /* QRScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D5E2C0A67F1009C98F1 /* QRScannerViewModel.swift */; };
+		1C2A5D8F2C0A67F1009C98F1 /* WaitOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D602C0A67F1009C98F1 /* WaitOverlayView.swift */; };
+		1C2A5D902C0A67F1009C98F1 /* WalletCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D622C0A67F1009C98F1 /* WalletCoordinator.swift */; };
+		1C2A5D912C0A67F1009C98F1 /* ApplicationUiCallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D642C0A67F1009C98F1 /* ApplicationUiCallbackHandler.swift */; };
+		1C2A5D922C0A67F1009C98F1 /* CredentialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D652C0A67F1009C98F1 /* CredentialPicker.swift */; };
+		1C2A5D932C0A67F1009C98F1 /* PingOneWalletHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D662C0A67F1009C98F1 /* PingOneWalletHelper.swift */; };
+		1C2A5D942C0A67F1009C98F1 /* ApplicationUiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D682C0A67F1009C98F1 /* ApplicationUiHandler.swift */; };
+		1C2A5D952C0A67F1009C98F1 /* ConnectivityUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D692C0A67F1009C98F1 /* ConnectivityUtils.swift */; };
+		1C2A5D962C0A67F1009C98F1 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D6A2C0A67F1009C98F1 /* Date+String.swift */; };
+		1C2A5D972C0A67F1009C98F1 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D6B2C0A67F1009C98F1 /* DateUtils.swift */; };
+		1C2A5D982C0A67F1009C98F1 /* DefaultCredentialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D6C2C0A67F1009C98F1 /* DefaultCredentialPicker.swift */; };
+		1C2A5D992C0A67F1009C98F1 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D6D2C0A67F1009C98F1 /* UIColor+Hex.swift */; };
+		1C2A5D9A2C0A67F1009C98F1 /* UIImage+FromSVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D6E2C0A67F1009C98F1 /* UIImage+FromSVG.swift */; };
+		1C2A5D9B2C0A67F1009C98F1 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D6F2C0A67F1009C98F1 /* UIImage+Orientation.swift */; };
+		1C2A5D9C2C0A67F1009C98F1 /* UIImage+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D702C0A67F1009C98F1 /* UIImage+Thumbnail.swift */; };
+		1C2A5D9D2C0A67F1009C98F1 /* EventObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D722C0A67F1009C98F1 /* EventObserver.swift */; };
+		1C2A5D9E2C0A67F1009C98F1 /* EventObserverUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A5D732C0A67F1009C98F1 /* EventObserverUtils.swift */; };
+		1C2A5DA32C0A6B68009C98F1 /* AnyCoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */; };
+		1C2A5DA42C0A6B68009C98F1 /* AnyCoder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C7382C629C82B710091D080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382C529C82B710091D080 /* AppDelegate.swift */; };
 		1C7382CF29C82B720091D080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7382CE29C82B720091D080 /* Assets.xcassets */; };
 		1C7382DD29C82B720091D080 /* PingOneWalletSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382DC29C82B720091D080 /* PingOneWalletSampleTests.swift */; };
 		1C7382E729C82B730091D080 /* PingOneWalletSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382E629C82B730091D080 /* PingOneWalletSampleUITests.swift */; };
 		1C7382E929C82B730091D080 /* PingOneWalletSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382E829C82B730091D080 /* PingOneWalletSampleUITestsLaunchTests.swift */; };
-		1C73831B29C82BEB0091D080 /* PingOneWalletHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382F629C82BEB0091D080 /* PingOneWalletHelper.swift */; };
 		1C73831C29C82BEB0091D080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7382F729C82BEB0091D080 /* Assets.xcassets */; };
-		1C73831D29C82BEB0091D080 /* UIImage+FromSVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382F929C82BEB0091D080 /* UIImage+FromSVG.swift */; };
-		1C73831E29C82BEB0091D080 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382FA29C82BEB0091D080 /* UIColor+Hex.swift */; };
-		1C73831F29C82BEB0091D080 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382FB29C82BEB0091D080 /* DateUtils.swift */; };
-		1C73832029C82BEB0091D080 /* NotificationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382FC29C82BEB0091D080 /* NotificationUtils.swift */; };
-		1C73832129C82BEB0091D080 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382FD29C82BEB0091D080 /* UIImage+Orientation.swift */; };
-		1C73832229C82BEB0091D080 /* EventObserverUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382FE29C82BEB0091D080 /* EventObserverUtils.swift */; };
-		1C73832329C82BEB0091D080 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7382FF29C82BEB0091D080 /* Date+String.swift */; };
-		1C73832429C82BEB0091D080 /* UIImage+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830029C82BEB0091D080 /* UIImage+Thumbnail.swift */; };
-		1C73832529C82BEB0091D080 /* PickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830329C82BEB0091D080 /* PickerItem.swift */; };
-		1C73832629C82BEB0091D080 /* ItemPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830429C82BEB0091D080 /* ItemPickerViewController.swift */; };
-		1C73832729C82BEB0091D080 /* PickerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830529C82BEB0091D080 /* PickerListener.swift */; };
-		1C73832829C82BEB0091D080 /* CredentialDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830629C82BEB0091D080 /* CredentialDetailsViewController.swift */; };
-		1C73832929C82BEB0091D080 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830729C82BEB0091D080 /* HomeViewController.swift */; };
-		1C73832A29C82BEB0091D080 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830829C82BEB0091D080 /* QRScannerViewController.swift */; };
-		1C73832B29C82BEB0091D080 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830929C82BEB0091D080 /* CreateProfileViewController.swift */; };
-		1C73832C29C82BEB0091D080 /* ItemPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830B29C82BEB0091D080 /* ItemPickerTableViewCell.swift */; };
-		1C73832D29C82BEB0091D080 /* CredentialListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830C29C82BEB0091D080 /* CredentialListItem.swift */; };
-		1C73832E29C82BEB0091D080 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73830D29C82BEB0091D080 /* Profile.swift */; };
-		1C73832F29C82BEB0091D080 /* CredentialListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C73830F29C82BEB0091D080 /* CredentialListItem.xib */; };
-		1C73833029C82BEB0091D080 /* ItemPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C73831029C82BEB0091D080 /* ItemPickerTableViewCell.xib */; };
-		1C73833129C82BEB0091D080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C73831129C82BEB0091D080 /* LaunchScreen.storyboard */; };
-		1C73833229C82BEB0091D080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C73831329C82BEB0091D080 /* Main.storyboard */; };
-		1C73833329C82BEB0091D080 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73831729C82BEB0091D080 /* StorageManager.swift */; };
-		1C73833429C82BEB0091D080 /* EncryptedFilesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73831829C82BEB0091D080 /* EncryptedFilesHelper.swift */; };
-		1C73833529C82BEB0091D080 /* DataRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73831929C82BEB0091D080 /* DataRepositoryProtocol.swift */; };
-		1C73833629C82BEB0091D080 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C73831A29C82BEB0091D080 /* DataRepository.swift */; };
 		1C73834029C82CFD0091D080 /* CryptoTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833829C82CFB0091D080 /* CryptoTools.xcframework */; };
 		1C73834129C82CFD0091D080 /* CryptoTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833829C82CFB0091D080 /* CryptoTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C73834229C82CFD0091D080 /* CommunicationManager.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */; };
@@ -91,6 +106,7 @@
 				1C73834729C82CFD0091D080 /* JoseTools.xcframework in Embed Frameworks */,
 				1C73834B29C82CFD0091D080 /* JOSESwift.xcframework in Embed Frameworks */,
 				1C73834529C82CFD0091D080 /* secp256k1Wrapper.xcframework in Embed Frameworks */,
+				1C2A5DA42C0A6B68009C98F1 /* AnyCoder.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +114,49 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C2A5D3D2C0A67F1009C98F1 /* CredentialListItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CredentialListItemCell.xib; sourceTree = "<group>"; };
+		1C2A5D3E2C0A67F1009C98F1 /* ItemPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemPickerTableViewCell.xib; sourceTree = "<group>"; };
+		1C2A5D3F2C0A67F1009C98F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C2A5D412C0A67F1009C98F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C2A5D442C0A67F1009C98F1 /* CredentialListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialListItem.swift; sourceTree = "<group>"; };
+		1C2A5D452C0A67F1009C98F1 /* PickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerItem.swift; sourceTree = "<group>"; };
+		1C2A5D472C0A67F1009C98F1 /* CredentialListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialListItemCell.swift; sourceTree = "<group>"; };
+		1C2A5D482C0A67F1009C98F1 /* ItemPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPickerTableViewCell.swift; sourceTree = "<group>"; };
+		1C2A5D4B2C0A67F1009C98F1 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		1C2A5D4C2C0A67F1009C98F1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1C2A5D4D2C0A67F1009C98F1 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1C2A5D4F2C0A67F1009C98F1 /* CredentialDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialDetailsView.swift; sourceTree = "<group>"; };
+		1C2A5D502C0A67F1009C98F1 /* CredentialDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialDetailsViewController.swift; sourceTree = "<group>"; };
+		1C2A5D512C0A67F1009C98F1 /* CredentialDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialDetailsViewModel.swift; sourceTree = "<group>"; };
+		1C2A5D532C0A67F1009C98F1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1C2A5D542C0A67F1009C98F1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C2A5D552C0A67F1009C98F1 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1C2A5D572C0A67F1009C98F1 /* PickerListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerListener.swift; sourceTree = "<group>"; };
+		1C2A5D582C0A67F1009C98F1 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		1C2A5D592C0A67F1009C98F1 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		1C2A5D5A2C0A67F1009C98F1 /* PickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
+		1C2A5D5C2C0A67F1009C98F1 /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		1C2A5D5D2C0A67F1009C98F1 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		1C2A5D5E2C0A67F1009C98F1 /* QRScannerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewModel.swift; sourceTree = "<group>"; };
+		1C2A5D602C0A67F1009C98F1 /* WaitOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitOverlayView.swift; sourceTree = "<group>"; };
+		1C2A5D622C0A67F1009C98F1 /* WalletCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletCoordinator.swift; sourceTree = "<group>"; };
+		1C2A5D642C0A67F1009C98F1 /* ApplicationUiCallbackHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationUiCallbackHandler.swift; sourceTree = "<group>"; };
+		1C2A5D652C0A67F1009C98F1 /* CredentialPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialPicker.swift; sourceTree = "<group>"; };
+		1C2A5D662C0A67F1009C98F1 /* PingOneWalletHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingOneWalletHelper.swift; sourceTree = "<group>"; };
+		1C2A5D682C0A67F1009C98F1 /* ApplicationUiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationUiHandler.swift; sourceTree = "<group>"; };
+		1C2A5D692C0A67F1009C98F1 /* ConnectivityUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityUtils.swift; sourceTree = "<group>"; };
+		1C2A5D6A2C0A67F1009C98F1 /* Date+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		1C2A5D6B2C0A67F1009C98F1 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		1C2A5D6C2C0A67F1009C98F1 /* DefaultCredentialPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCredentialPicker.swift; sourceTree = "<group>"; };
+		1C2A5D6D2C0A67F1009C98F1 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		1C2A5D6E2C0A67F1009C98F1 /* UIImage+FromSVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FromSVG.swift"; sourceTree = "<group>"; };
+		1C2A5D6F2C0A67F1009C98F1 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		1C2A5D702C0A67F1009C98F1 /* UIImage+Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Thumbnail.swift"; sourceTree = "<group>"; };
+		1C2A5D722C0A67F1009C98F1 /* EventObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserver.swift; sourceTree = "<group>"; };
+		1C2A5D732C0A67F1009C98F1 /* EventObserverUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserverUtils.swift; sourceTree = "<group>"; };
+		1C2A5D752C0A67F1009C98F1 /* PingOneWalletSample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PingOneWalletSample.entitlements; sourceTree = "<group>"; };
+		1C2A5D9F2C0A6A2D009C98F1 /* AnyCodable.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyCodable.xcframework; path = ../../SDK/AnyCodable.xcframework; sourceTree = "<group>"; };
+		1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyCoder.xcframework; path = ../../SDK/AnyCoder.xcframework; sourceTree = "<group>"; };
 		1C7382C229C82B710091D080 /* PingOneWalletSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingOneWalletSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7382C529C82B710091D080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7382CE29C82B720091D080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,34 +166,7 @@
 		1C7382E229C82B730091D080 /* PingOneWalletSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingOneWalletSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7382E629C82B730091D080 /* PingOneWalletSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingOneWalletSampleUITests.swift; sourceTree = "<group>"; };
 		1C7382E829C82B730091D080 /* PingOneWalletSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingOneWalletSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1C7382F629C82BEB0091D080 /* PingOneWalletHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingOneWalletHelper.swift; sourceTree = "<group>"; };
 		1C7382F729C82BEB0091D080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C7382F929C82BEB0091D080 /* UIImage+FromSVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FromSVG.swift"; sourceTree = "<group>"; };
-		1C7382FA29C82BEB0091D080 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		1C7382FB29C82BEB0091D080 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
-		1C7382FC29C82BEB0091D080 /* NotificationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationUtils.swift; sourceTree = "<group>"; };
-		1C7382FD29C82BEB0091D080 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
-		1C7382FE29C82BEB0091D080 /* EventObserverUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserverUtils.swift; sourceTree = "<group>"; };
-		1C7382FF29C82BEB0091D080 /* Date+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
-		1C73830029C82BEB0091D080 /* UIImage+Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Thumbnail.swift"; sourceTree = "<group>"; };
-		1C73830329C82BEB0091D080 /* PickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerItem.swift; sourceTree = "<group>"; };
-		1C73830429C82BEB0091D080 /* ItemPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPickerViewController.swift; sourceTree = "<group>"; };
-		1C73830529C82BEB0091D080 /* PickerListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerListener.swift; sourceTree = "<group>"; };
-		1C73830629C82BEB0091D080 /* CredentialDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialDetailsViewController.swift; sourceTree = "<group>"; };
-		1C73830729C82BEB0091D080 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		1C73830829C82BEB0091D080 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
-		1C73830929C82BEB0091D080 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
-		1C73830B29C82BEB0091D080 /* ItemPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPickerTableViewCell.swift; sourceTree = "<group>"; };
-		1C73830C29C82BEB0091D080 /* CredentialListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialListItem.swift; sourceTree = "<group>"; };
-		1C73830D29C82BEB0091D080 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		1C73830F29C82BEB0091D080 /* CredentialListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CredentialListItem.xib; sourceTree = "<group>"; };
-		1C73831029C82BEB0091D080 /* ItemPickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemPickerTableViewCell.xib; sourceTree = "<group>"; };
-		1C73831229C82BEB0091D080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1C73831429C82BEB0091D080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1C73831729C82BEB0091D080 /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		1C73831829C82BEB0091D080 /* EncryptedFilesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptedFilesHelper.swift; sourceTree = "<group>"; };
-		1C73831929C82BEB0091D080 /* DataRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRepositoryProtocol.swift; sourceTree = "<group>"; };
-		1C73831A29C82BEB0091D080 /* DataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
 		1C73833829C82CFB0091D080 /* CryptoTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CryptoTools.xcframework; path = ../../SDK/CryptoTools.xcframework; sourceTree = "<group>"; };
 		1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CommunicationManager.xcframework; path = ../../SDK/CommunicationManager.xcframework; sourceTree = "<group>"; };
 		1C73833A29C82CFC0091D080 /* secp256k1Wrapper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = secp256k1Wrapper.xcframework; path = ../../SDK/secp256k1Wrapper.xcframework; sourceTree = "<group>"; };
@@ -152,6 +184,7 @@
 			files = (
 				1C73834229C82CFD0091D080 /* CommunicationManager.xcframework in Frameworks */,
 				1C73834829C82CFD0091D080 /* PingOneWallet.xcframework in Frameworks */,
+				1C2A5DA32C0A6B68009C98F1 /* AnyCoder.xcframework in Frameworks */,
 				1C73834E29C82CFD0091D080 /* libsecp256k1.xcframework in Frameworks */,
 				1C73834029C82CFD0091D080 /* CryptoTools.xcframework in Frameworks */,
 				1C73834C29C82CFD0091D080 /* DIDSDK.xcframework in Frameworks */,
@@ -179,6 +212,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2A5D432C0A67F1009C98F1 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D3D2C0A67F1009C98F1 /* CredentialListItemCell.xib */,
+				1C2A5D3E2C0A67F1009C98F1 /* ItemPickerTableViewCell.xib */,
+				1C2A5D402C0A67F1009C98F1 /* LaunchScreen.storyboard */,
+				1C2A5D422C0A67F1009C98F1 /* Main.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		1C2A5D462C0A67F1009C98F1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D442C0A67F1009C98F1 /* CredentialListItem.swift */,
+				1C2A5D452C0A67F1009C98F1 /* PickerItem.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1C2A5D492C0A67F1009C98F1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D462C0A67F1009C98F1 /* models */,
+				1C2A5D472C0A67F1009C98F1 /* CredentialListItemCell.swift */,
+				1C2A5D482C0A67F1009C98F1 /* ItemPickerTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		1C2A5D4E2C0A67F1009C98F1 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D4B2C0A67F1009C98F1 /* BaseView.swift */,
+				1C2A5D4C2C0A67F1009C98F1 /* BaseViewController.swift */,
+				1C2A5D4D2C0A67F1009C98F1 /* BaseViewModel.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		1C2A5D522C0A67F1009C98F1 /* credential_details */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D4F2C0A67F1009C98F1 /* CredentialDetailsView.swift */,
+				1C2A5D502C0A67F1009C98F1 /* CredentialDetailsViewController.swift */,
+				1C2A5D512C0A67F1009C98F1 /* CredentialDetailsViewModel.swift */,
+			);
+			path = credential_details;
+			sourceTree = "<group>";
+		};
+		1C2A5D562C0A67F1009C98F1 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D532C0A67F1009C98F1 /* HomeView.swift */,
+				1C2A5D542C0A67F1009C98F1 /* HomeViewController.swift */,
+				1C2A5D552C0A67F1009C98F1 /* HomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		1C2A5D5B2C0A67F1009C98F1 /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D572C0A67F1009C98F1 /* PickerListener.swift */,
+				1C2A5D582C0A67F1009C98F1 /* PickerView.swift */,
+				1C2A5D592C0A67F1009C98F1 /* PickerViewController.swift */,
+				1C2A5D5A2C0A67F1009C98F1 /* PickerViewModel.swift */,
+			);
+			path = picker;
+			sourceTree = "<group>";
+		};
+		1C2A5D5F2C0A67F1009C98F1 /* qr_scaner */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D5C2C0A67F1009C98F1 /* QRScannerView.swift */,
+				1C2A5D5D2C0A67F1009C98F1 /* QRScannerViewController.swift */,
+				1C2A5D5E2C0A67F1009C98F1 /* QRScannerViewModel.swift */,
+			);
+			path = qr_scaner;
+			sourceTree = "<group>";
+		};
+		1C2A5D612C0A67F1009C98F1 /* wait */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D602C0A67F1009C98F1 /* WaitOverlayView.swift */,
+			);
+			path = wait;
+			sourceTree = "<group>";
+		};
+		1C2A5D632C0A67F1009C98F1 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D4E2C0A67F1009C98F1 /* base */,
+				1C2A5D522C0A67F1009C98F1 /* credential_details */,
+				1C2A5D562C0A67F1009C98F1 /* home */,
+				1C2A5D5B2C0A67F1009C98F1 /* picker */,
+				1C2A5D5F2C0A67F1009C98F1 /* qr_scaner */,
+				1C2A5D612C0A67F1009C98F1 /* wait */,
+				1C2A5D622C0A67F1009C98F1 /* WalletCoordinator.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		1C2A5D672C0A67F1009C98F1 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D642C0A67F1009C98F1 /* ApplicationUiCallbackHandler.swift */,
+				1C2A5D652C0A67F1009C98F1 /* CredentialPicker.swift */,
+				1C2A5D662C0A67F1009C98F1 /* PingOneWalletHelper.swift */,
+			);
+			path = wallet;
+			sourceTree = "<group>";
+		};
+		1C2A5D712C0A67F1009C98F1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D682C0A67F1009C98F1 /* ApplicationUiHandler.swift */,
+				1C2A5D692C0A67F1009C98F1 /* ConnectivityUtils.swift */,
+				1C2A5D6A2C0A67F1009C98F1 /* Date+String.swift */,
+				1C2A5D6B2C0A67F1009C98F1 /* DateUtils.swift */,
+				1C2A5D6C2C0A67F1009C98F1 /* DefaultCredentialPicker.swift */,
+				1C2A5D6D2C0A67F1009C98F1 /* UIColor+Hex.swift */,
+				1C2A5D6E2C0A67F1009C98F1 /* UIImage+FromSVG.swift */,
+				1C2A5D6F2C0A67F1009C98F1 /* UIImage+Orientation.swift */,
+				1C2A5D702C0A67F1009C98F1 /* UIImage+Thumbnail.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		1C2A5D742C0A67F1009C98F1 /* observer */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A5D722C0A67F1009C98F1 /* EventObserver.swift */,
+				1C2A5D732C0A67F1009C98F1 /* EventObserverUtils.swift */,
+			);
+			path = observer;
+			sourceTree = "<group>";
+		};
 		1C7382B929C82B710091D080 = {
 			isa = PBXGroup;
 			children = (
@@ -204,14 +375,14 @@
 		1C7382C429C82B710091D080 /* PingOneWalletSample */ = {
 			isa = PBXGroup;
 			children = (
+				1C2A5D752C0A67F1009C98F1 /* PingOneWalletSample.entitlements */,
+				1C2A5D492C0A67F1009C98F1 /* cell */,
+				1C2A5D742C0A67F1009C98F1 /* observer */,
+				1C2A5D432C0A67F1009C98F1 /* ui */,
+				1C2A5D712C0A67F1009C98F1 /* utils */,
+				1C2A5D632C0A67F1009C98F1 /* viewcontrollers */,
+				1C2A5D672C0A67F1009C98F1 /* wallet */,
 				1C7382C529C82B710091D080 /* AppDelegate.swift */,
-				1C7382F529C82BEB0091D080 /* network */,
-				1C73831629C82BEB0091D080 /* storage */,
-				1C73830E29C82BEB0091D080 /* ui */,
-				1C7382F829C82BEB0091D080 /* utils */,
-				1C73830129C82BEB0091D080 /* viewcontrollers */,
-				1C73830A29C82BEB0091D080 /* views */,
-				1C73830D29C82BEB0091D080 /* Profile.swift */,
 				1C7382CE29C82B720091D080 /* Assets.xcassets */,
 				1C7382D329C82B720091D080 /* Info.plist */,
 			);
@@ -235,85 +406,11 @@
 			path = PingOneWalletSampleUITests;
 			sourceTree = "<group>";
 		};
-		1C7382F529C82BEB0091D080 /* network */ = {
-			isa = PBXGroup;
-			children = (
-				1C7382F629C82BEB0091D080 /* PingOneWalletHelper.swift */,
-			);
-			path = network;
-			sourceTree = "<group>";
-		};
-		1C7382F829C82BEB0091D080 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				1C7382F929C82BEB0091D080 /* UIImage+FromSVG.swift */,
-				1C7382FA29C82BEB0091D080 /* UIColor+Hex.swift */,
-				1C7382FB29C82BEB0091D080 /* DateUtils.swift */,
-				1C7382FC29C82BEB0091D080 /* NotificationUtils.swift */,
-				1C7382FD29C82BEB0091D080 /* UIImage+Orientation.swift */,
-				1C7382FE29C82BEB0091D080 /* EventObserverUtils.swift */,
-				1C7382FF29C82BEB0091D080 /* Date+String.swift */,
-				1C73830029C82BEB0091D080 /* UIImage+Thumbnail.swift */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
-		1C73830129C82BEB0091D080 /* viewcontrollers */ = {
-			isa = PBXGroup;
-			children = (
-				1C73830229C82BEB0091D080 /* picker */,
-				1C73830629C82BEB0091D080 /* CredentialDetailsViewController.swift */,
-				1C73830729C82BEB0091D080 /* HomeViewController.swift */,
-				1C73830829C82BEB0091D080 /* QRScannerViewController.swift */,
-				1C73830929C82BEB0091D080 /* CreateProfileViewController.swift */,
-			);
-			path = viewcontrollers;
-			sourceTree = "<group>";
-		};
-		1C73830229C82BEB0091D080 /* picker */ = {
-			isa = PBXGroup;
-			children = (
-				1C73830329C82BEB0091D080 /* PickerItem.swift */,
-				1C73830429C82BEB0091D080 /* ItemPickerViewController.swift */,
-				1C73830529C82BEB0091D080 /* PickerListener.swift */,
-			);
-			path = picker;
-			sourceTree = "<group>";
-		};
-		1C73830A29C82BEB0091D080 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				1C73830B29C82BEB0091D080 /* ItemPickerTableViewCell.swift */,
-				1C73830C29C82BEB0091D080 /* CredentialListItem.swift */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		1C73830E29C82BEB0091D080 /* ui */ = {
-			isa = PBXGroup;
-			children = (
-				1C73830F29C82BEB0091D080 /* CredentialListItem.xib */,
-				1C73831029C82BEB0091D080 /* ItemPickerTableViewCell.xib */,
-				1C73831129C82BEB0091D080 /* LaunchScreen.storyboard */,
-				1C73831329C82BEB0091D080 /* Main.storyboard */,
-			);
-			path = ui;
-			sourceTree = "<group>";
-		};
-		1C73831629C82BEB0091D080 /* storage */ = {
-			isa = PBXGroup;
-			children = (
-				1C73831729C82BEB0091D080 /* StorageManager.swift */,
-				1C73831829C82BEB0091D080 /* EncryptedFilesHelper.swift */,
-				1C73831929C82BEB0091D080 /* DataRepositoryProtocol.swift */,
-				1C73831A29C82BEB0091D080 /* DataRepository.swift */,
-			);
-			path = storage;
-			sourceTree = "<group>";
-		};
 		1C73833729C82CFB0091D080 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */,
+				1C2A5D9F2C0A6A2D009C98F1 /* AnyCodable.xcframework */,
 				1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */,
 				1C73833829C82CFB0091D080 /* CryptoTools.xcframework */,
 				1C73833E29C82CFC0091D080 /* DIDSDK.xcframework */,
@@ -445,12 +542,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C73833029C82BEB0091D080 /* ItemPickerTableViewCell.xib in Resources */,
+				1C2A5D782C0A67F1009C98F1 /* LaunchScreen.storyboard in Resources */,
+				1C2A5D792C0A67F1009C98F1 /* Main.storyboard in Resources */,
 				1C7382CF29C82B720091D080 /* Assets.xcassets in Resources */,
-				1C73833229C82BEB0091D080 /* Main.storyboard in Resources */,
 				1C73831C29C82BEB0091D080 /* Assets.xcassets in Resources */,
-				1C73833129C82BEB0091D080 /* LaunchScreen.storyboard in Resources */,
-				1C73832F29C82BEB0091D080 /* CredentialListItem.xib in Resources */,
+				1C2A5D772C0A67F1009C98F1 /* ItemPickerTableViewCell.xib in Resources */,
+				1C2A5D762C0A67F1009C98F1 /* CredentialListItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,30 +572,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C73833429C82BEB0091D080 /* EncryptedFilesHelper.swift in Sources */,
-				1C73832029C82BEB0091D080 /* NotificationUtils.swift in Sources */,
-				1C73832729C82BEB0091D080 /* PickerListener.swift in Sources */,
-				1C73833529C82BEB0091D080 /* DataRepositoryProtocol.swift in Sources */,
-				1C73831D29C82BEB0091D080 /* UIImage+FromSVG.swift in Sources */,
-				1C73831F29C82BEB0091D080 /* DateUtils.swift in Sources */,
-				1C73833629C82BEB0091D080 /* DataRepository.swift in Sources */,
-				1C73831B29C82BEB0091D080 /* PingOneWalletHelper.swift in Sources */,
-				1C73832D29C82BEB0091D080 /* CredentialListItem.swift in Sources */,
-				1C73832529C82BEB0091D080 /* PickerItem.swift in Sources */,
-				1C73832429C82BEB0091D080 /* UIImage+Thumbnail.swift in Sources */,
-				1C73832129C82BEB0091D080 /* UIImage+Orientation.swift in Sources */,
-				1C73832E29C82BEB0091D080 /* Profile.swift in Sources */,
-				1C73832629C82BEB0091D080 /* ItemPickerViewController.swift in Sources */,
-				1C73832B29C82BEB0091D080 /* CreateProfileViewController.swift in Sources */,
-				1C73833329C82BEB0091D080 /* StorageManager.swift in Sources */,
-				1C73832829C82BEB0091D080 /* CredentialDetailsViewController.swift in Sources */,
-				1C73832929C82BEB0091D080 /* HomeViewController.swift in Sources */,
-				1C73832A29C82BEB0091D080 /* QRScannerViewController.swift in Sources */,
+				1C2A5D962C0A67F1009C98F1 /* Date+String.swift in Sources */,
+				1C2A5D7F2C0A67F1009C98F1 /* BaseView.swift in Sources */,
+				1C2A5D7D2C0A67F1009C98F1 /* ItemPickerTableViewCell.swift in Sources */,
+				1C2A5D942C0A67F1009C98F1 /* ApplicationUiHandler.swift in Sources */,
+				1C2A5D8C2C0A67F1009C98F1 /* QRScannerView.swift in Sources */,
+				1C2A5D802C0A67F1009C98F1 /* BaseViewController.swift in Sources */,
+				1C2A5D8D2C0A67F1009C98F1 /* QRScannerViewController.swift in Sources */,
+				1C2A5D832C0A67F1009C98F1 /* CredentialDetailsViewController.swift in Sources */,
+				1C2A5D852C0A67F1009C98F1 /* HomeView.swift in Sources */,
+				1C2A5D8A2C0A67F1009C98F1 /* PickerViewController.swift in Sources */,
+				1C2A5D932C0A67F1009C98F1 /* PingOneWalletHelper.swift in Sources */,
+				1C2A5D9C2C0A67F1009C98F1 /* UIImage+Thumbnail.swift in Sources */,
+				1C2A5D872C0A67F1009C98F1 /* HomeViewModel.swift in Sources */,
+				1C2A5D912C0A67F1009C98F1 /* ApplicationUiCallbackHandler.swift in Sources */,
+				1C2A5D7B2C0A67F1009C98F1 /* PickerItem.swift in Sources */,
+				1C2A5D982C0A67F1009C98F1 /* DefaultCredentialPicker.swift in Sources */,
+				1C2A5D952C0A67F1009C98F1 /* ConnectivityUtils.swift in Sources */,
+				1C2A5D812C0A67F1009C98F1 /* BaseViewModel.swift in Sources */,
+				1C2A5D822C0A67F1009C98F1 /* CredentialDetailsView.swift in Sources */,
+				1C2A5D922C0A67F1009C98F1 /* CredentialPicker.swift in Sources */,
+				1C2A5D9A2C0A67F1009C98F1 /* UIImage+FromSVG.swift in Sources */,
+				1C2A5D9D2C0A67F1009C98F1 /* EventObserver.swift in Sources */,
+				1C2A5D862C0A67F1009C98F1 /* HomeViewController.swift in Sources */,
+				1C2A5D9E2C0A67F1009C98F1 /* EventObserverUtils.swift in Sources */,
+				1C2A5D842C0A67F1009C98F1 /* CredentialDetailsViewModel.swift in Sources */,
+				1C2A5D7C2C0A67F1009C98F1 /* CredentialListItemCell.swift in Sources */,
+				1C2A5D8F2C0A67F1009C98F1 /* WaitOverlayView.swift in Sources */,
 				1C7382C629C82B710091D080 /* AppDelegate.swift in Sources */,
-				1C73831E29C82BEB0091D080 /* UIColor+Hex.swift in Sources */,
-				1C73832329C82BEB0091D080 /* Date+String.swift in Sources */,
-				1C73832C29C82BEB0091D080 /* ItemPickerTableViewCell.swift in Sources */,
-				1C73832229C82BEB0091D080 /* EventObserverUtils.swift in Sources */,
+				1C2A5D7A2C0A67F1009C98F1 /* CredentialListItem.swift in Sources */,
+				1C2A5D8E2C0A67F1009C98F1 /* QRScannerViewModel.swift in Sources */,
+				1C2A5D8B2C0A67F1009C98F1 /* PickerViewModel.swift in Sources */,
+				1C2A5D902C0A67F1009C98F1 /* WalletCoordinator.swift in Sources */,
+				1C2A5D992C0A67F1009C98F1 /* UIColor+Hex.swift in Sources */,
+				1C2A5D972C0A67F1009C98F1 /* DateUtils.swift in Sources */,
+				1C2A5D882C0A67F1009C98F1 /* PickerListener.swift in Sources */,
+				1C2A5D892C0A67F1009C98F1 /* PickerView.swift in Sources */,
+				1C2A5D9B2C0A67F1009C98F1 /* UIImage+Orientation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,18 +645,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1C73831129C82BEB0091D080 /* LaunchScreen.storyboard */ = {
+		1C2A5D402C0A67F1009C98F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1C73831229C82BEB0091D080 /* Base */,
+				1C2A5D3F2C0A67F1009C98F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		1C73831329C82BEB0091D080 /* Main.storyboard */ = {
+		1C2A5D422C0A67F1009C98F1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1C73831429C82BEB0091D080 /* Base */,
+				1C2A5D412C0A67F1009C98F1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -673,6 +783,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PingOneWalletSample/PingOneWalletSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YZYUGL7S48;
@@ -691,7 +802,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingidentity.PingOneWalletSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingidentity.pingonewallet.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -707,6 +818,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PingOneWalletSample/PingOneWalletSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YZYUGL7S48;
@@ -725,7 +837,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pingidentity.PingOneWalletSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingidentity.pingonewallet.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
