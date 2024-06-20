@@ -155,7 +155,6 @@
 		1C2A5D722C0A67F1009C98F1 /* EventObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserver.swift; sourceTree = "<group>"; };
 		1C2A5D732C0A67F1009C98F1 /* EventObserverUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventObserverUtils.swift; sourceTree = "<group>"; };
 		1C2A5D752C0A67F1009C98F1 /* PingOneWalletSample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PingOneWalletSample.entitlements; sourceTree = "<group>"; };
-		1C2A5D9F2C0A6A2D009C98F1 /* AnyCodable.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyCodable.xcframework; path = ../../SDK/AnyCodable.xcframework; sourceTree = "<group>"; };
 		1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AnyCoder.xcframework; path = ../../SDK/AnyCoder.xcframework; sourceTree = "<group>"; };
 		1C7382C229C82B710091D080 /* PingOneWalletSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingOneWalletSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7382C529C82B710091D080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -410,7 +409,6 @@
 			isa = PBXGroup;
 			children = (
 				1C2A5DA22C0A6B68009C98F1 /* AnyCoder.xcframework */,
-				1C2A5D9F2C0A6A2D009C98F1 /* AnyCodable.xcframework */,
 				1C73833929C82CFB0091D080 /* CommunicationManager.xcframework */,
 				1C73833829C82CFB0091D080 /* CryptoTools.xcframework */,
 				1C73833E29C82CFC0091D080 /* DIDSDK.xcframework */,
